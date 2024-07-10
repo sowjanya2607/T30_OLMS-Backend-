@@ -7,6 +7,7 @@ const borrowingRecordRoutes = require("./routes/borrowingRecordRoutes");
 const adminRoutes = require("./routes/adminRoutes");
 const cors = require("cors");
 const digitalResourceRoutes = require("./routes/digitalResources");
+const server = require('./src/server.js');
 const app = express();
 // Enable CORS
 app.use(
